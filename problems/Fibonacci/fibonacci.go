@@ -1,8 +1,8 @@
 package main
 
-import "fmt"
+// import "fmt"
 
-func subRoutine(num int, c chan int) {
+/*func subRoutine(num int, c chan int) {
 	x, y := 0, 1
 
 	for i := 0; i < num; i++ {
@@ -19,9 +19,7 @@ func main() {
 		fmt.Println(i)
 	}
 }
-
-/*
-package main
+*/
 
 import (
 	"fmt"
@@ -52,4 +50,3 @@ func main() {
 	q <- true
 	time.Sleep(time.Second * 1)
 }
-*/
